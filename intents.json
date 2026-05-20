@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there!",
+        "Welcome to our website!"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you provide?",
+        "Tell me your services",
+        "What do you do?"
+      ],
+      "responses": [
+        "We provide AI solutions, web development, and chatbot services."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "What is the pricing?",
+        "How much does it cost?",
+        "Tell me the price"
+      ],
+      "responses": [
+        "Our pricing depends on the project requirements."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": [
+        "Goodbye!",
+        "Have a great day!"
+      ]
+    }
+  ]
+}
