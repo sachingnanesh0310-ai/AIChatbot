@@ -1,14 +1,15 @@
 body {
+    background: #f4f4f4;
     font-family: Arial;
-    background: #f2f2f2;
 }
 
 .chat-container {
     width: 400px;
     margin: 50px auto;
     background: white;
-    padding: 20px;
     border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
 }
 
 #chatbox {
@@ -21,14 +22,14 @@ body {
 
 .user-message {
     text-align: right;
-    margin: 10px;
     color: blue;
+    margin: 10px;
 }
 
 .bot-message {
     text-align: left;
-    margin: 10px;
     color: green;
+    margin: 10px;
 }
 
 .input-area {
@@ -42,4 +43,8 @@ input {
 
 button {
     padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
